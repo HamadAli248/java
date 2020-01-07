@@ -13,8 +13,13 @@ public class Main {
 //            ArrayOfString arr = new ArrayOfString();
 //            arr.ArrayOfStrings();
 
-        MultiDimensionalArrays mul = new MultiDimensionalArrays();
-        mul.multiDimensionalArrays();
+//        MultiDimensionalArrays mul = new MultiDimensionalArrays();
+//        mul.multiDimensionalArrays();
+
+        ClassesAndObjects classesAndObjects = new ClassesAndObjects();
+        classesAndObjects.classesAndObjects();
+
+
 
     }
 }
