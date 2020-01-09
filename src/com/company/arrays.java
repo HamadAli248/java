@@ -1,11 +1,11 @@
 package com.company;
 
 public class arrays {
-    public static void arrays(String[] args){
+    public static void arrays(String[] args) {
 
         int value = 7;
 
-        int[] values ;
+        int[] values;
 
         values = new int[3];
 
@@ -14,19 +14,18 @@ public class arrays {
         values[0] = 10;
         values[1] = 20;
         values[2] = 30;
+//
+//        System.out.println(values[0]);
+//        System.out.println(values[1]);
+//        System.out.println(values[2]);
 
-        System.out.println(values[0]);
-        System.out.println(values[1]);
-        System.out.println(values[2]);
-
-        for (int i=0; i<values.length; i++){
+        for (int i = 0; i < values.length; i++) {
             System.out.println(values[i]);
         }
-
-        int[] numbers = { 1,2,4,5,77,8};
-        for (int i=0; i<numbers.length; i++){
-            System.out.println(numbers[i]);
-        }
-
+//
+//        int[] numbers = { 1,2,4,5,77,8};
+//        for (int i=0; i<numbers.length; i++){
+//            System.out.println(numbers[i]);
     }
+
 }

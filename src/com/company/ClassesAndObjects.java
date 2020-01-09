@@ -11,6 +11,17 @@ class Person{
 
     //1. Data
     //2. Subroutines(methods)
+    void speak(){
+        for (int i = 0; i<3;i++){
+            System.out.println("Hello");
+        }
+    }
+
+    void sayHello(){
+        System.out.println("Hello There!!!");
+
+    }
+
 
 }
 
@@ -20,6 +31,8 @@ public class ClassesAndObjects {
         Person person1 = new Person();
         person1.name = "Hamad Ali";
         person1.age = 19;
+        person1.speak();
+        person1.sayHello();
 
         Person person2 = new Person();
         person2.name= "Bob dj";

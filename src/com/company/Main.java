@@ -16,8 +16,12 @@ public class Main {
 //        MultiDimensionalArrays mul = new MultiDimensionalArrays();
 //        mul.multiDimensionalArrays();
 
-        ClassesAndObjects classesAndObjects = new ClassesAndObjects();
-        classesAndObjects.classesAndObjects();
+//        ClassesAndObjects classesAndObjects = new ClassesAndObjects();
+//        classesAndObjects.classesAndObjects();
+
+        MethodsAndParameters methodsAndParameters = new MethodsAndParameters();
+
+        methodsAndParameters.myRobot();
 
 
 
